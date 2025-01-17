@@ -12,3 +12,12 @@ body{
     background: #111;
     overflow: hidden;
 }
+
+.cotainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
