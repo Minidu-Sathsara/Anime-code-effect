@@ -19,5 +19,11 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 50px;
+    width: 100%;
 
+}
+
+.cotainer .imgBx{
+    display: grid;
 }
