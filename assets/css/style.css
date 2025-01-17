@@ -27,11 +27,15 @@ body{
 }
 
 .cotainer .imgBx{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(10,1fr);
     width: 300px;
     height: 300px;
+}
+.cotainer .imgBx:hover{
+    z-index: 1000;
 }
 
 .cotainer .imgBx i {
@@ -40,4 +44,14 @@ body{
     height: 100%;
     background: #fff;
     border: 1px solid #000;
+    background-size: 300px;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.cotainer .imgBx:first-of-type i {
+    background-image: url(/assets/images/pexels-goksutaymaz-30162929.jpg);
+}
+
+.cotainer .imgBx:last-of-type i {
+    background-image: url(/assets/images/pexels-muhammet-atam-169879552-30194580.jpg);
 }
